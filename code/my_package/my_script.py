@@ -1,7 +1,7 @@
 import os
 import RPi.GPIO
 import time
-from adafruit_motorki import MotorKit
+from adafruit_motorkit import MotorKit
 
 message = "Hello world, my name is %s" % os.environ['VEHICLE_NAME']
 print(message)
